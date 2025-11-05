@@ -1,0 +1,175 @@
+# MATLAB
+#
+# Copyright 2018-2022 The MathWorks, Inc.
+#
+# This .gitignore file is for use with MATLAB projects.
+#
+# To use this file:
+#   1. Copy this file to the root of your Git repository.
+#   2. Rename it to ".gitignore".
+#
+# This file provides a starting point for ignoring files and folders that are
+# commonly created by MATLAB and related toolboxes. You should customize this
+# file to meet the needs of your specific project.
+#
+# For more information about .gitignore files, see the Git documentation:
+# https://git-scm.com/docs/gitignore
+
+######################
+# MATLAB
+######################
+
+# MATLAB auto-generated files
+*.asv
+*.bak
+*~
+*.swp
+*.swo
+
+# MATLAB crash files
+crash.dump.*
+crash_dump.*
+MATLAB_Editor_Crash_Dump_*.xml
+
+# MATLAB search path
+pathdef.m
+
+# MATLAB preferences
+matlab.prf
+matlabprefs.mat
+
+# Figure files
+*.fig
+
+# MATLAB session
+*.mat
+
+# Temporary files
+*.tmp
+
+# MLX and SLX temporary files
+*.autosave
+*.smc
+*.smd
+*.autosave.slx
+*.autosave.mlx
+*.releasemanifest
+
+# Executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Zipped archives
+*.zip
+*.tar.gz
+*.rar
+
+######################
+# Simulink
+######################
+
+# Simulink code generation files
+slprj/
+_sharedutils/
+*_ert_rtw/
+*_grt_rtw/
+*_rtw/
+*_slrt_rtw/
+*.rtw
+*.c
+*.h
+*.obj
+*.o
+*.mex*
+
+# Simulink model files
+*.mdl.ois
+*.mdl.shadow
+*.slx.original
+*.slx.bak
+*.slx.autosave
+*.slxp
+*.slxc
+*.sfx
+*.sltx
+*.p
+
+# Simulink data dictionary
+*.sldd.bak
+*.sldd.shadow
+*.sldd.autosave
+
+# Simulink model reference
+*.slref
+*.pdb
+*.pdb.exp
+*.pdb.idb
+*.pdb.lib
+*.pdb.msobj
+*.pdb.obj
+*.pdb.pch
+*.pdb.vc
+
+######################
+# Simscape
+######################
+
+# Simscape
+*.ssc
+*FromSimscape*
+
+######################
+# Stateflow
+################################
+
+# Stateflow
+*.sfx
+*.sfx.exp
+*.sfx.idb
+*.sfx.lib
+*.sfx.msobj
+*.sfx.obj
+*.sfx.pch
+*.sfx.vc
+*.sfx.exp
+*.sfx.idb
+*.sfx.lib
+*.sfx.msobj
+*.sfx.obj
+*.sfx.pch
+*.sfxtr
+*.sfr
+*.sfxmake
+
+######################
+# MATLAB Coder
+######################
+
+# MATLAB Coder
+codegen/
+*.mexa64
+*.mexw64
+*.mexmaci64
+*.mex
+
+######################
+# MATLAB App Designer
+######################
+
+# MATLAB App Designer
+*.mlapp
+*.mlappinstall
+
+######################
+# MATLAB Projects
+######################
+
+# MATLAB Projects
+*.prj
+*.prj.bak
+*.prj.autosave
+resources/
+build/
+dist/
